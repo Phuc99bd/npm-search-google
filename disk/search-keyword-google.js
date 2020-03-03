@@ -20,7 +20,7 @@ searchGoogle.prototype.queue = async(options, callback) => {
 
 }
 
-function getData(body) {
+function getData(body, options) {
     let $ = cheerio.load(body);
     let array = [];
     $("#search").find(".g").each((index, item) => {
@@ -72,7 +72,7 @@ async function dataProcessing(options) {
         let body = await page.content();
         await brower.close();
 
-        return getData(body);
+        return getData(body, options);
     } catch (error) {
         await brower.close();
         return { error: error };

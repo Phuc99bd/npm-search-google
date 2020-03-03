@@ -1,13 +1,13 @@
 {
     "name": "npm-search-google",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "description": "crawler top 5 google",
     "main": "index.js",
     "scripts": {
         "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
         "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules",
         "test": "npm start",
-        "start": "node search-keyword-google.js"
+        "start": "node disk/search-keyword-google.js"
     },
     "repository": {
         "type": "git",
