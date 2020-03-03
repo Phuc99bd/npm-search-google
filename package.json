@@ -7,7 +7,7 @@
         "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
         "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules",
         "test": "npm start",
-        "start": "node src/index.js"
+        "start": "node dist/search-keyword-google.js"
     },
     "repository": {
         "type": "git",
