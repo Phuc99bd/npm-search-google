@@ -1,0 +1,30 @@
+{
+    "name": "npm-search-google",
+    "version": "1.0.0",
+    "description": "crawler top 5 google",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+        "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules",
+        "test": "npm start",
+        "start": "node npm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Phuc99bd/npm-search-googole.git"
+    },
+    "keywords": [
+        "npm-search-googole"
+    ],
+    "author": "Phuc",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Phuc99bd/npm-search-googole/issues"
+    },
+    "homepage": "https://github.com/Phuc99bd/npm-search-googole#readme",
+    "devDependencies": {
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^4.42.0",
+        "webpack-cli": "^3.3.11"
+    }
+}
