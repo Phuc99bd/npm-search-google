@@ -37,6 +37,36 @@ search.queue({
     console.log(data);
 })
 ```
+* [Result]
+    ```js
+    [
+  {
+    title: 'Tom and Jerry, xem sẽ cười như ngày xưa - YouTube',
+    href: 'https://www.youtube.com/watch?v=PWsAsfWunEc',
+    content: 'hya lắm.'
+  },
+  {
+    title: 'Tom & Jerry | The Tom & Jerry Rewind | Classic Cartoon ...',
+    href: 'https://www.youtube.com/watch?v=LaFtAcIrGWA',
+    content: 'We have curated some of the most loved Tom & Jerry moments this year into a mega compilation for you to ...'
+  },
+  {
+    title: 'Tom and Jerry - Phim hoạt hình Tom và Jerry - Part 10 ...',
+    href: 'https://www.youtube.com/watch?v=4mZMvREdg2I',
+    content: 'Tom and Jerry - Phim hoạt hình Tom và Jerry - Part 10 Just Ducky T&J Movie ...'
+  },
+  {
+    title: 'Tom & Jerry | Best of Little Quacker | Classic Cartoon ...',
+    href: 'https://www.youtube.com/watch?v=AGBjI0x9VbM',
+    content: 'Jerry is always around to help keep Little Quacker out of trouble - especially from Tom! WB Kids is the home of ...'
+  },
+  {
+    title: 'Tom and Jerry Show - Tập 5 - Phim Hoạt Hình Tiếng Việt ...',
+    href: 'https://www.youtube.com/watch?v=d71y_Him938',
+    content: 'Tải ứng dụng POPS để xem hoạt hình và chương trình thiếu nhi hay: http://bit.ly/ungdungPOPS ▶️ Xem ngay nhiều nội dung ...'   
+  }
+]
+    ```
 ## Advanced
 
 ### Class: searchgoogle
