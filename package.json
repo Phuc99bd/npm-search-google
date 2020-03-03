@@ -1,6 +1,6 @@
 {
     "name": "npm-search-google",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "crawler top 5 google",
     "main": "index.js",
     "scripts": {
