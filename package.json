@@ -7,7 +7,7 @@
         "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
         "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules",
         "test": "npm start",
-        "start": "node npm start"
+        "start": "node src/index.js"
     },
     "repository": {
         "type": "git",
@@ -26,5 +26,10 @@
         "uglifyjs-webpack-plugin": "^2.2.0",
         "webpack": "^4.42.0",
         "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "puppeteer": "^2.1.1",
+        "request": "^2.88.2"
     }
 }
