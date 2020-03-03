@@ -14,9 +14,9 @@
 - [Get started](#get-started)
   * [Install](#install)
   * [Basic usage](#basic-usage)
-- [Advanced]("#avanced)
-  * [Class: searchgoogle](#search-google)
-    + [searchgoogle.queue](#search-google-queue)
+- [Advanced]("#advanced)
+  * [Class:searchgoogle](#classsearchgoogle)
+    + [searchgoogle.queue](#searchgooglequeue)
 
 # Get started
 
