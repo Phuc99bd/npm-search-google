@@ -14,7 +14,7 @@
         "url": "git+https://github.com/Phuc99bd/npm-search-googole.git"
     },
     "keywords": [
-        "npm-search-googole"
+        "npm-search-googole", "google", "search google", "crawler"
     ],
     "author": "Phuc",
     "license": "ISC",
